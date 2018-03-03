@@ -1,0 +1,49 @@
+.home{
+	height:700px;
+	width:100%;
+	color:white;
+	font-size:60px;
+	text-align:center;
+	padding-top:250px;
+	background-image:url('../images/bgi.jpg');
+}
+
+.parallex{
+    background-image:url('../images/parallex.jpg');
+    height: 100%;
+    background-attachment:fixed;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+	color:white;
+}
+
+.parallex2{
+    background-image:url('../images/parallex2.jpg');
+    height: 100%;
+    background-attachment:fixed;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+	color:white;
+}
+.address
+{
+	color:black;
+	font-size:20px;
+	text-align:justify;
+	background-color:white;
+}
+
+.social-icons{
+	font-size:30px;
+	background-color:green;
+	padding-top:100px;
+}
+#mainnav{
+	background-color:darkgreen;
+	color:red;
+}
+#pl{
+	 text-align: justify;
+}
