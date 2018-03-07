@@ -25,6 +25,15 @@
 	
 </head>
 	<body>
+		<script>
+  Webflow.push(function () {
+    var fulls = $('.full-page');
+    var win = $(window);
+    Webflow.resize.on(function () {
+      fulls.height(win.height());
+    });
+  });
+</script>
 	<div id="home" class="home" >	
 		<font>HELLO! I Am Akash Rawat | | A CS Student</font>
 		<h2>This website Is To Know Me On Personal Level</h2>
