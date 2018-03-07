@@ -8,6 +8,7 @@
 	text-align:center;
 	padding-top:250px;
 	background-image:url('../images/bgi.jpg');
+	overflow:hidden;
 }
 
 .parallex{
@@ -18,6 +19,7 @@
     background-repeat:no-repeat;
     background-size:cover;
 	color:white;
+	overflow:hidden;
 }
 
 .parallex2{
@@ -28,6 +30,7 @@
     background-repeat:no-repeat;
     background-size:cover;
 	color:white;
+	overflow:hidden;
 }
 .address
 {
@@ -35,16 +38,19 @@
 	font-size:20px;
 	text-align:justify;
 	background-color:white;
+	overflow:hidden;
 }
 
 .social-icons{
 	font-size:30px;
 	background-color:green;
 	padding-top:100px;
+	overflow:hidden;
 }
 #mainnav{
 	background-color:darkgreen;
 	color:red;
+	overflow:hidden;
 }
 #pl{
 	 text-align: justify;
@@ -52,20 +58,25 @@
 #whatid{
 	width: 100%;
 	height: 100%;
+	overflow:hidden;
 }
 #about{
 	width: 100%;
 	height: 100%;
+	overflow:hidden;
 }
 #experience{
 	width: 100%;
 	height: 100%;
+	overflow:hidden;
 }
 #besties{
 	width: 100%;
 	height: 100%;
+	overflow:hidden;
 }
 #contact{
 	width: 100%;
 	height: 100%;
+	overflow:hidden;
 }
