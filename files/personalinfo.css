@@ -1,6 +1,6 @@
 .home{
 	width: 100%;
-	height: 100%;
+	height: auto;
 	min-width: 700px;
 	min-height: 1000px;
 	color:white;
@@ -57,26 +57,26 @@
 }
 #whatid{
 	width: 100%;
-	height: 100%;
+	height: auto;
 	overflow:hidden;
 }
 #about{
 	width: 100%;
-	height: 100%;
+	height: auto;
 	overflow:hidden;
 }
 #experience{
 	width: 100%;
-	height: 100%;
+	height: auto;
 	overflow:hidden;
 }
 #besties{
 	width: 100%;
-	height: 100%;
+	height: auto;
 	overflow:hidden;
 }
 #contact{
 	width: 100%;
-	height: 100%;
+	height: auto;
 	overflow:hidden;
 }
