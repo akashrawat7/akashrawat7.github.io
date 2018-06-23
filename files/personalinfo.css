@@ -1,32 +1,38 @@
 #home{
-	height:800px;
-	max-height:900;
-	width:100%;
+	width: 100%;
+	height: auto;
+	min-width: 700px;
+	min-height: 1000px;
 	color:white;
 	font-size:60px;
 	text-align:center;
 	padding-top:250px;
 	background-image:url('../images/bgi.jpg');
+	overflow:hidden;
 }
 
 .parallex{
     background-image:url('../images/parallex.jpg');
     height: 100%;
+	max-height:auto;
     background-attachment:fixed;
     background-position:center;
     background-repeat:no-repeat;
     background-size:cover;
 	color:white;
+	overflow:hidden;
 }
 
 .parallex2{
     background-image:url('../images/parallex2.jpg');
     height: 100%;
+	max-height:auto;
     background-attachment:fixed;
     background-position:center;
     background-repeat:no-repeat;
     background-size:cover;
 	color:white;
+	overflow:hidden;
 }
 .address
 {
@@ -34,17 +40,66 @@
 	font-size:20px;
 	text-align:justify;
 	background-color:white;
+	overflow:hidden;
 }
 
 .social-icons{
 	font-size:30px;
 	background-color:green;
 	padding-top:100px;
+	overflow:hidden;
 }
 #mainnav{
 	background-color:darkgreen;
 	color:red;
+	overflow:hidden;
 }
 #pl{
 	 text-align: justify;
 }
+#whatid{
+	width: 100%;
+	height: auto;
+	overflow:hidden;
+	max-height:auto;
+}
+#about{
+	width: 100%;
+	height: auto;
+	overflow:hidden;
+	max-height:auto;
+}
+#experience{
+	width: 100%;
+	height: auto;
+	overflow:hidden;
+}
+#besties{
+	width: 100%;
+	height: auto;
+	overflow:hidden;
+	max-height:auto;
+}
+#contact{
+	width: 100%;
+	height: auto;
+	overflow:hidden;
+	max-height:auto;
+}
+.animate{
+	-webkit-animation:ani 5s ease-in infinite;
+}
+@-webkit-keyframes ani{
+	0%{letter-spacing:1px; color:seagreen;}
+	10%{letter-spacing:2px; color:whitesmoke;}
+	20%{letter-spacing:3px; color:middlespringgreen;}
+	30%{ letter-spacing:4px; color:navy;}
+	40%{letter-spacing:5px; color:lime;}
+	50%{ letter-spacing:6px; color:darkcyan;}
+	60%{letter-spacing:7px; color:brown;}
+	70%{color:yellow;}
+	80%{color:teal;}
+	90%{color:aqua;}
+	100%{color:black;}
+}
+	
