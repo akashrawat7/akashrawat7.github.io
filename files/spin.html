@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+/* Center the loader */
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 130px;
+  height: 130px;
+  margin: -65px 0 0 -65px;
+  border: 16px solid springgreen;
+  border-radius: 50%;
+  border-top: 16px solid yellow;
+ 
+  width: 100px;
+  height: 100px;
+  -webkit-animation:move 2s ease-in infinite;
+  animation:move 2s ease-in infinite;
+
+}
+@-webkit-keyframes move{
+0% {-webkit-transform:rotate(0deg);}
+100% {-webkit-transform:rotate(360deg);}
+
+}
+@keyframes move{
+0% {transform:rotate(0deg);}
+100% {transform:rotate(360deg);}
+
+}
+
+
+</style>
+</head>
+<body >
+
+<div id="loader"></div>
+
+<div style="display:none;" id="myDiv" class="animate-bottom">
+  <h2>Tada!</h2>
+  <p>Some text in my newly loaded page..</p>
+</div>
+
+</body>
+</html>

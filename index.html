@@ -24,16 +24,24 @@
 	 <link rel="shortcut icon" href="images/favicon.ico">
 	
 </head>
-	<body>
+	<body onload="myfunction()" style="margin:0;">
 		<script>
-  Webflow.push(function () {
-    var fulls = $('.full-page');
-    var win = $(window);
-    Webflow.resize.on(function () {
-      fulls.height(win.height());
-    });
-  });
+  var myvar;
+  
+  function myfunction(){
+  
+ myvar=setTimeout(showpage,8000);
+  }
+  
+  function showpage(){
+  document.getElementById('loader').style.display="none";
+  document.getElementById("con").style.display = "block";
+  }
+  
 </script>
+
+<div id="loader"></div>
+<div class="container-fluid" id="con" style="display:none;" >
 	<div id="home" class="home" >	
 		<font>HELLO! I Am <span class="animate"> Akash Rawat</span> | | A CS Student</font>
 		<h2>This website Is To Know Me On Personal Level</h2>
@@ -96,7 +104,7 @@
 								</div>
 				</div>
 			</div>
-			</div>
+			
 		</section><br><br><br><br><br><br><br><br><br>
            <!--end of love to do section !-->
 		   
@@ -146,12 +154,11 @@
 				</div>
 			</div>
 		</div>
-  </div>
-			</div>	
-  </div>
+  
+			
+  
 					
-				</div>
-		</div>
+		
 		   </section><br><br><br><br>
 		   <!-- end of section of about!-->
 	<section id="experience" class="container-fluid text-center"><br><br><br>
@@ -263,7 +270,7 @@
 			</div>
 		  </section>
 		 
-		  
+		  </div>
 		  
 	</body>
 	

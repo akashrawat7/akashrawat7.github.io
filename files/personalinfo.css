@@ -93,13 +93,47 @@
 	0%{letter-spacing:1px; color:seagreen;}
 	10%{letter-spacing:2px; color:whitesmoke;}
 	20%{letter-spacing:3px; color:middlespringgreen;}
-	30%{ letter-spacing:4px; color:navy;}
-	40%{letter-spacing:5px; color:lime;}
-	50%{ letter-spacing:6px; color:darkcyan;}
-	60%{letter-spacing:7px; color:brown;}
-	70%{color:yellow;}
-	80%{color:teal;}
-	90%{color:aqua;}
-	100%{color:black;}
+	30%{ letter-spacing:4px; color:whitesmoke;}
+	40%{letter-spacing:5px; color:seagreen;}
+	50%{ letter-spacing:6px; color:middlespringgreen;}
+	60%{letter-spacing:7px; color:whitesmoke;}
+	70%{color:seagreen;}
+	80%{color:middlespringgreen;}
+	90%{color:whitesmoke;}
+	100%{color:whitesmoke;}
 }
 	
+	#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 130px;
+  height: 130px;
+  margin: -65px 0 0 -65px;
+  border: 16px solid green;
+  border-radius: 50%;
+  border-top: 16px solid yellow;
+  width: 100px;
+  height: 100px;
+  -webkit-animation:move 2s ease-in infinite;
+  animation:move 2s ease-in infinite;
+
+}
+@-webkit-keyframes move{
+0% {-webkit-transform:rotate(0deg);}
+100% {-webkit-transform:rotate(360deg);}
+
+}
+@keyframes move{
+0% {transform:rotate(0deg);}
+100% {transform:rotate(360deg);}
+
+}
+
+#con {
+    padding-right:0;
+    padding-left:0;
+    margin-right:auto;
+    margin-left:auto
+ }
