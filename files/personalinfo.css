@@ -1,9 +1,9 @@
 #home{
 	width: 100%;
 	height: auto;
-	min-width: 700px;
+	min-width: auto;
 	min-height: 1000px;
-	color:white;
+	color: white;
 	font-size:60px;
 	text-align:center;
 	padding-top:250px;
