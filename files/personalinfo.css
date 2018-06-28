@@ -9,6 +9,9 @@
 	padding-top:250px;
 	background-image:url('../images/bgi.jpg');
 	overflow:hidden;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .parallex{
@@ -49,6 +52,7 @@
 	padding-top:100px;
 	overflow:hidden;
 }
+
 #mainnav{
 	background-color:darkgreen;
 	color:red;
@@ -86,6 +90,8 @@
 	overflow:hidden;
 	max-height:auto;
 }
+
+/*
 .animate{
 	-webkit-animation:ani 5s ease-in infinite;
 }
@@ -102,7 +108,7 @@
 	90%{color:whitesmoke;}
 	100%{color:whitesmoke;}
 }
-	
+	*/
 	#loader {
   position: absolute;
   left: 50%;
@@ -111,9 +117,9 @@
   width: 130px;
   height: 130px;
   margin: -65px 0 0 -65px;
-  border: 16px solid green;
+  border: 16px solid yellow;
   border-radius: 50%;
-  border-top: 16px solid yellow;
+  border-top: 16px solid darkgreen;
   width: 100px;
   height: 100px;
   -webkit-animation:move 2s ease-in infinite;
@@ -137,3 +143,45 @@
     margin-right:auto;
     margin-left:auto
  }
+
+body{
+margin: 0;
+    padding: 0;
+    
+}
+
+.load{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+.load h1{
+    margin: 0;
+    padding: 0;
+    font-size: 8vw;
+    background-image: url(../images/image.png);
+    color:rgba(255,255,255,.1);
+    background-repeat: repeat-x;
+    -webkit-background-clip: text;
+    animation: animate 15s linear infinite;
+}
+
+@keyframes animate{
+    
+    0%{
+        background-position: left 0px  top 80px;
+    }
+    40%{
+        background-position: left 800px  top -50px;
+    }
+    80%{
+        background-position: left 1800px  top -50px;
+    }
+    100%{
+        background-position: left 2400px  top 80px;
+    }
+    
+}
