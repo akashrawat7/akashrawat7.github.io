@@ -7,7 +7,7 @@
 	font-size:60px;
 	text-align:center;
 	padding-top:250px;
-	background-image:url('../images/bgi.jpg');
+	background-image:url('../images/bg1.jpg');
 	overflow:hidden;
     background-size:cover;
     background-position: center;
@@ -37,6 +37,7 @@
 	color:white;
 	overflow:hidden;
 }
+
 .address
 {
 	color:black;
@@ -48,16 +49,12 @@
 
 .social-icons{
 	font-size:30px;
-	background-color:green;
+	background-color:DarkCyan;
 	padding-top:100px;
 	overflow:hidden;
+	color: black;
 }
 
-#mainnav{
-	background-color:darkgreen;
-	color:red;
-	overflow:hidden;
-}
 #pl{
 	 text-align: justify;
 }
