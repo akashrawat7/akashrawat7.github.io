@@ -8,7 +8,7 @@
 	text-align:center;
 	padding-top:250px;
 	background-image:url('../images/bg1.jpg');
-	overflow:hidden;
+	overflow-x:hidden;
     background-size:cover;
     background-position: center;
     background-attachment: fixed;
@@ -23,35 +23,35 @@
     background-repeat:no-repeat;
     background-size:cover;
 	color:white;
-	overflow:hidden;
+	overflow-x:hidden;
 }
 
 .parallex2{
-    background-image:url('../images/parallex2.jpg');
+    background-image:url('../images/paral.jpg');
     height: 100%;
-	max-height:auto;
+    width: 100%;
     background-attachment:fixed;
     background-position:center;
     background-repeat:no-repeat;
     background-size:cover;
 	color:white;
-	overflow:hidden;
+	overflow-x:hidden;
 }
 
 .address
 {
-	color:black;
-	font-size:20px;
+	color:white;
+	font-size:22px;
 	text-align:justify;
-	background-color:white;
-	overflow:hidden;
+	overflow-x:hidden;
+	text-decoration: none;
+	
 }
 
 .social-icons{
 	font-size:30px;
-	background-color:DarkCyan;
-	padding-top:100px;
-	overflow:hidden;
+	padding-top:px;
+	overflow-x:hidden;
 	color: black;
 }
 
@@ -61,84 +61,40 @@
 #whatid{
 	width: 100%;
 	height: auto;
-	overflow:hidden;
+	overflow-x:hidden;
 	max-height:auto;
 }
 #about{
 	width: 100%;
 	height: auto;
-	overflow:hidden;
+	overflow-x:hidden;
 	max-height:auto;
 }
 #experience{
 	width: 100%;
 	height: auto;
-	overflow:hidden;
+	overflow-x:hidden;
 }
 #besties{
 	
 	height: auto;
-	overflow:hidden;
+	overflow-x:hidden;
 	max-height:auto;
 }
 #contact{
 	width: 100%;
 	height: auto;
-	overflow:hidden;
+	overflow-x:hidden;
 	max-height:auto;
-}
-
-/*
-.animate{
-	-webkit-animation:ani 5s ease-in infinite;
-}
-@-webkit-keyframes ani{
-	0%{letter-spacing:1px; color:seagreen;}
-	10%{letter-spacing:2px; color:whitesmoke;}
-	20%{letter-spacing:3px; color:middlespringgreen;}
-	30%{ letter-spacing:4px; color:whitesmoke;}
-	40%{letter-spacing:5px; color:seagreen;}
-	50%{ letter-spacing:6px; color:middlespringgreen;}
-	60%{letter-spacing:7px; color:whitesmoke;}
-	70%{color:seagreen;}
-	80%{color:middlespringgreen;}
-	90%{color:whitesmoke;}
-	100%{color:whitesmoke;}
-}
-	*/
-	#loader {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  z-index: 1;
-  width: 130px;
-  height: 130px;
-  margin: -65px 0 0 -65px;
-  border: 16px solid yellow;
-  border-radius: 50%;
-  border-top: 16px solid darkgreen;
-  width: 100px;
-  height: 100px;
-  -webkit-animation:move 2s ease-in infinite;
-  animation:move 2s ease-in infinite;
-
-}
-@-webkit-keyframes move{
-0% {-webkit-transform:rotate(0deg);}
-100% {-webkit-transform:rotate(360deg);}
-
-}
-@keyframes move{
-0% {transform:rotate(0deg);}
-100% {transform:rotate(360deg);}
-
 }
 
 #con {
     padding-right:0;
     padding-left:0;
     margin-right:auto;
-    margin-left:auto
+    margin-left:auto;
+    overflow-x:hidden;
+
  }
 
 body{
@@ -181,4 +137,47 @@ margin: 0;
         background-position: left 2400px  top 80px;
     }
     
+}
+
+html,body{
+	background:#000;
+	margin:0;
+}
+#centered{
+	width:400px;
+	height:400px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	background:#000;
+	filter: blur(10px) contrast(20);
+}
+.blob-1,.blob-2{
+	width:70px;
+	height:70px;
+	position:absolute;
+	background:#fff;
+	border-radius:50%;
+	top:50%;left:50%;
+	transform:translate(-50%,-50%);
+}
+.blob-1{
+	left:20%;
+	animation:osc-l 2.5s ease infinite;
+}
+.blob-2{
+	left:80%;
+	animation:osc-r 2.5s ease infinite;
+	background:yell;
+}
+@keyframes osc-l{
+	0%{left:20%;}
+	50%{left:50%;}
+	100%{left:20%;}
+}
+@keyframes osc-r{
+	0%{left:80%;}
+	50%{left:50%;}
+	100%{left:80%;}
 }
