@@ -1,183 +1,171 @@
 #home{
-	width: 100%;
-	height: auto;
-	min-width: auto;
-	min-height: 1000px;
-	color: white;
-	font-size:60px;
-	text-align:center;
-	padding-top:250px;
-	background-image:url('../images/bg1.jpg');
-	overflow-x:hidden;
-    background-size:cover;
-    background-position: center;
-    background-attachment: fixed;
+width: 100%;
+height: auto;
+min-width: auto;
+min-height: 1000px;
+color: white;
+font-size:60px;
+text-align:center;
+padding-top:250px;
+background-image:url('../images/bg1.jpg');
+overflow-x:hidden;
+background-size:cover;
+background-position: center;
+background-attachment: fixed;
 }
-
 .parallex{
-    background-image:url('../images/parallex.jpg');
-    height: 100%;
-	max-height:auto;
-    background-attachment:fixed;
-    background-position:center;
-    background-repeat:no-repeat;
-    background-size:cover;
-	color:white;
-	overflow-x:hidden;
+background-image:url('../images/parallex.jpg');
+height: 100%;
+max-height:auto;
+background-attachment:fixed;
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+color:white;
+overflow-x:hidden;
 }
-
 .parallex2{
-    background-image:url('../images/paral.jpg');
-    height: 100%;
-    width: 100%;
-    background-attachment:fixed;
-    background-position:center;
-    background-repeat:no-repeat;
-    background-size:cover;
-	color:white;
-	overflow-x:hidden;
+background-image:url('../images/paral.jpg');
+height: 100%;
+width: 100%;
+background-attachment:fixed;
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+color:white;
+overflow-x:hidden;
 }
-
 .address
 {
-	color:white;
-	font-size:22px;
-	text-align:justify;
-	overflow-x:hidden;
-	text-decoration: none;
-	
-}
+color:white;
+font-size:22px;
+text-align:justify;
+overflow-x:hidden;
+text-decoration: none;
 
+}
 .social-icons{
-	font-size:30px;
-	padding-top:px;
-	overflow-x:hidden;
-	color: black;
+font-size:30px;
+padding-top:px;
+overflow-x:hidden;
+color: black;
 }
-
 #pl{
-	 text-align: justify;
+text-align: justify;
 }
 #whatid{
-	width: 100%;
-	height: auto;
-	overflow-x:hidden;
-	max-height:auto;
+width: 100%;
+height: auto;
+overflow-x:hidden;
+max-height:auto;
 }
 #about{
-	width: 100%;
-	height: auto;
-	overflow-x:hidden;
-	max-height:auto;
+width: 100%;
+height: auto;
+overflow-x:hidden;
+max-height:auto;
 }
 #experience{
-	width: 100%;
-	height: auto;
-	overflow-x:hidden;
+width: 100%;
+height: auto;
+overflow-x:hidden;
 }
 #besties{
-	
-	height: auto;
-	overflow-x:hidden;
-	max-height:auto;
+
+height: auto;
+overflow-x:hidden;
+max-height:auto;
 }
 #contact{
-	width: 100%;
-	height: auto;
-	overflow-x:hidden;
-	max-height:auto;
+width: 100%;
+height: auto;
+overflow-x:hidden;
+max-height:auto;
 }
-
 #con {
-    padding-right:0;
-    padding-left:0;
-    margin-right:auto;
-    margin-left:auto;
-    overflow-x:hidden;
-
- }
-
+padding-right:0;
+padding-left:0;
+margin-right:auto;
+margin-left:auto;
+overflow-x:hidden;
+}
 body{
 margin: 0;
-    padding: 0;
-    
-}
+padding: 0;
 
+}
 .load{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    
-}
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
 
+}
 .load h1{
-    margin: 0;
-    padding: 0;
-    font-size: 8vw;
-    background-image: url(../images/image.png);
-    color:rgba(255,255,255,.1);
-    background-repeat: repeat-x;
-    -webkit-background-clip: text;
-    animation: animate 15s linear infinite;
+margin: 0;
+padding: 0;
+font-size: 8vw;
+background-image: url(../images/image.png);
+color:rgba(255,255,255,.1);
+background-repeat: repeat-x;
+-webkit-background-clip: text;
+animation: animate 15s linear infinite;
 }
-
 @keyframes animate{
-    
-    0%{
-        background-position: left 0px  top 80px;
-    }
-    40%{
-        background-position: left 800px  top -50px;
-    }
-    80%{
-        background-position: left 1800px  top -50px;
-    }
-    100%{
-        background-position: left 2400px  top 80px;
-    }
-    
+
+0%{
+background-position: left 0px  top 80px;
+}
+40%{
+background-position: left 800px  top -50px;
+}
+80%{
+background-position: left 1800px  top -50px;
+}
+100%{
+background-position: left 2400px  top 80px;
 }
 
+}
 html,body{
-	background:#000;
-	margin:0;
+background:#000;
+margin:0;
 }
 #centered{
-	width:400px;
-	height:400px;
-	position:absolute;
-	top:50%;
-	left:50%;
-	transform:translate(-50%,-50%);
-	background:#000;
-	filter: blur(10px) contrast(20);
+width:400px;
+height:400px;
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+background:#000;
+filter: blur(10px) contrast(20);
 }
 .blob-1,.blob-2{
-	width:70px;
-	height:70px;
-	position:absolute;
-	background:#fff;
-	border-radius:50%;
-	top:50%;left:50%;
-	transform:translate(-50%,-50%);
+width:70px;
+height:70px;
+position:absolute;
+background:#fff;
+border-radius:50%;
+top:50%;left:50%;
+transform:translate(-50%,-50%);
 }
 .blob-1{
-	left:20%;
-	animation:osc-l 2.5s ease infinite;
+left:20%;
+animation:osc-l 2.5s ease infinite;
 }
 .blob-2{
-	left:80%;
-	animation:osc-r 2.5s ease infinite;
-	background:yell;
+left:80%;
+animation:osc-r 2.5s ease infinite;
+background:tomato;
 }
 @keyframes osc-l{
-	0%{left:20%;}
-	50%{left:50%;}
-	100%{left:20%;}
+0%{left:20%;}
+50%{left:50%;}
+100%{left:20%;}
 }
 @keyframes osc-r{
-	0%{left:80%;}
-	50%{left:50%;}
-	100%{left:80%;}
+0%{left:80%;}
+50%{left:50%;}
+100%{left:80%;}
 }
