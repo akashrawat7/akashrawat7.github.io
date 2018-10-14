@@ -157,7 +157,7 @@ animation:osc-l 2.5s ease infinite;
 .blob-2{
 left:80%;
 animation:osc-r 2.5s ease infinite;
-background:tomato;
+background:seagreen;
 }
 @keyframes osc-l{
 0%{left:20%;}
