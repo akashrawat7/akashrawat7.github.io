@@ -71,7 +71,6 @@ height: auto;
 overflow-x:hidden;
 }
 #besties{
-
 height: auto;
 overflow-x:hidden;
 max-height:auto;
@@ -80,7 +79,6 @@ max-height:auto;
 width: 100%;
 height: auto;
 overflow-x:hidden;
-max-height:auto;
 }
 #con {
 padding-right:0;
@@ -157,7 +155,7 @@ animation:osc-l 2.5s ease infinite;
 .blob-2{
 left:80%;
 animation:osc-r 2.5s ease infinite;
-background:seagreen;
+background:lime;
 }
 @keyframes osc-l{
 0%{left:20%;}
