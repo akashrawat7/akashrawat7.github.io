@@ -42,13 +42,14 @@ font-size:22px;
 text-align:justify;
 overflow-x:hidden;
 text-decoration: none;
-
+background-size:cover;
 }
 .social-icons{
 font-size:30px;
 padding-top:px;
 overflow-x:hidden;
 color: black;
+background-size:cover;
 }
 #pl{
 text-align: justify;
@@ -79,6 +80,7 @@ max-height:auto;
 width: 100%;
 height: auto;
 overflow-x:hidden;
+background-size:cover;
 }
 #con {
 padding-right:0;
