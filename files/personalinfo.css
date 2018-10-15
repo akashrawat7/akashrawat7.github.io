@@ -129,7 +129,7 @@ html,body{
 background:#000;
 margin:0;
 }
-.centered{
+#centered{
 width:400px;
 height:400px;
 position:absolute;
