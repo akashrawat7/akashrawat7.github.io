@@ -140,8 +140,8 @@ background:#000;
 filter: blur(15px) contrast(20);
 }
 .blob-1,.blob-2, .blob-3, .blob-4{
-width:70px;
-height:70px;
+width:50px;
+height:50px;
 position:absolute;
 background:#fff;
 border-radius:50%;
