@@ -52,6 +52,7 @@ color: black;
 }
 #pl{
 text-align: justify;
+padding-left: 80px;
 }
 #whatid{
 width: 100%;
@@ -71,10 +72,22 @@ height: auto;
 overflow-x:hidden;
 }
 #besties{
-height: auto;
+height: 100%;
+width: 100%;
+margin: 0;
+padding: 0;
+background-size: cover;
 overflow-x:hidden;
 max-height:auto;
+  background: linear-gradient(
+    to right, 
+    #000000 0%, 
+    #000000 50%, 
+    #696969 50%, 
+    #696969 100%
+  );
 }
+
 #contact{
 width: 100%;
 height: auto;
