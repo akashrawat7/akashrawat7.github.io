@@ -1,53 +1,49 @@
 #home{
 width: 100%;
-height: auto;
-min-width: auto;
-min-height: 1000px;
-color: white;
-font-size:60px;
+height: 100vh;
 text-align:center;
-padding-top:250px;
 background-image:url('../images/bg1.jpg');
-overflow-x:hidden;
 background-size:cover;
-background-position: center;
 background-attachment: fixed;
+}
+.h-content{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+font-family: 'Montserrat', sans-serif;
+color: white;
+
 }
 .parallex{
 background-image:url('../images/parallex.jpg');
 height: 100%;
-max-height:auto;
 background-attachment:fixed;
 background-position:center;
 background-repeat:no-repeat;
 background-size:cover;
 color:white;
-overflow-x:hidden;
 }
 .parallex2{
 background-image:url('../images/paral.jpg');
-height: 100%;
+height: 100vh;
 width: 100%;
 background-attachment:fixed;
 background-position:center;
 background-repeat:no-repeat;
 background-size:cover;
 color:white;
-overflow-x:hidden;
 }
 .address
 {
 color:white;
 font-size:22px;
 text-align:justify;
-overflow-x:hidden;
 text-decoration: none;
-
 }
 .social-icons{
 font-size:30px;
 padding-top:px;
-overflow-x:hidden;
 color: black;
 }
 #pl{
@@ -56,20 +52,33 @@ padding-left: 50px;
 }
 #whatid{
 width: 100%;
-height: auto;
+height: 100vh;
 overflow-x:hidden;
-max-height:auto;
+
 }
 #about{
 width: 100%;
-height: auto;
 overflow-x:hidden;
-max-height:auto;
 }
 #experience{
 width: 100%;
 height: auto;
 overflow-x:hidden;
+}
+.ico {
+border-radius: 4px;
+color: #F67D03;
+display: inline-block;
+font-size: 36px;
+height: 90px;
+line-height: 90px;
+width: 90px;
+background-color: black;
+-webkit-transition:  0.2s ease;
+transition: 0.2s ease;
+}
+.ico:hover{
+background-color:dimgray;
 }
 #skills{
 height: 100%;
@@ -79,18 +88,16 @@ padding: 0;
 background-size: cover;
 overflow-x:hidden;
 max-height:auto;
-  background: linear-gradient(
-    to right, 
-    #000000 0%, 
-    #000000 50%, 
-    #696969 50%, 
-    #696969 100%
-  );
+background: linear-gradient(
+to right,
+#000000 0%,
+#000000 50%,
+#101010 50%,
+#101010 100%
+);
 }
-
 #contact{
 width: 100%;
-height: auto;
 overflow-x:hidden;
 }
 #con {
@@ -103,40 +110,12 @@ overflow-x:hidden;
 body{
 margin: 0;
 padding: 0;
-
 }
 .load{
 position: absolute;
 top: 50%;
 left: 50%;
 transform: translate(-50%,-50%);
-
-}
-.load h1{
-margin: 0;
-padding: 0;
-font-size: 8vw;
-background-image: url(../images/image.png);
-color:rgba(255,255,255,.1);
-background-repeat: repeat-x;
--webkit-background-clip: text;
-animation: animate 15s linear infinite;
-}
-@keyframes animate{
-
-0%{
-background-position: left 0px  top 80px;
-}
-40%{
-background-position: left 800px  top -50px;
-}
-80%{
-background-position: left 1800px  top -50px;
-}
-100%{
-background-position: left 2400px  top 80px;
-}
-
 }
 html,body{
 background:#000;
