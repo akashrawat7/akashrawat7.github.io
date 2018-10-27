@@ -66,13 +66,13 @@ height: auto;
 overflow-x:hidden;
 }
 .ico {
-border-radius: 4px;
-color: #F67D03;
+border-radius: 7px;
+color:#FF851B;
 display: inline-block;
-font-size: 36px;
-height: 90px;
-line-height: 90px;
-width: 90px;
+font-size:55px;
+height: 120px;
+line-height: 120px;
+width: 120px;
 background-color: black;
 -webkit-transition:  0.2s ease;
 transition: 0.2s ease;
