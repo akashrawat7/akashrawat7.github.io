@@ -63,19 +63,76 @@ width: 100%;
 height: auto;
 overflow-x:hidden;
 }
-.ico {
-border-radius: 7px;
+.ico-1 {
+border-radius: 100px 7px 100px 0px;
+-moz-border-radius: 100px 7px 100px 0px;
+-webkit-border-radius: 100px 7px 100px 0px;
+border: 10px outset #000000;
 color:#FF851B;
 display: inline-block;
 font-size:55px;
-height: 120px;
-line-height: 120px;
-width: 120px;
+height: 200px;
+line-height: 190px;
+width: 200px;
 background-color: black;
 -webkit-transition:  0.2s ease;
 transition: 0.2s ease;
 }
-.ico:hover{
+.ico-1:hover{
+background-color:dimgray;
+}
+.ico-2 {
+border-radius: 0px 100px 0px 0px;
+-moz-border-radius: 0px 100px 0px 0px;
+-webkit-border-radius: 0px 100px 0px 0px;
+border: 10px outset #000000;
+color:#FF851B;
+display: inline-block;
+font-size:55px;
+height: 200px;
+line-height: 190px;
+width: 200px;
+background-color: black;
+-webkit-transition:  0.2s ease;
+transition: 0.2s ease;
+}
+.ico-2:hover{
+background-color:dimgray;
+}
+.ico-3 {
+border-radius: 0px 100px 0px 100px;
+-moz-border-radius: 0px 100px 0px 100px;
+-webkit-border-radius: 0px 100px 0px 100px;
+border: 10px outset #000000;
+color:#FF851B;
+display: inline-block;
+font-size:55px;
+height: 200px;
+line-height: 190px;
+width: 200px;
+background-color: black;
+-webkit-transition:  0.2s ease;
+transition: 0.2s ease;
+}
+.ico-3:hover{
+background-color:dimgray;
+}
+.ico-4 {
+border-radius: 100px 0px 0px 0px;
+-moz-border-radius: 100px 0px 0px 0px;
+-webkit-border-radius: 100px 0px 0px 0px;
+border: 10px outset #000000;
+color:#FF851B;
+display: inline-block;
+font-size:55px;
+height: 200px;
+line-height: 190px;
+width: 200px;
+background-color: black;
+-webkit-transition:  0.2s ease;
+transition: 0.2s ease;
+}
+.ico-4:hover{
 background-color:dimgray;
 }
 #skills{
